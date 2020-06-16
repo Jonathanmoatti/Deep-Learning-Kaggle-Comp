@@ -11,6 +11,7 @@ For Deep Learning models i tested :
 - Bi-directional LSTM with Glove 64B as embedding.
 - CNN with FastText embeddings.
 - GRU with BERT (bert-base-uncased)
+
 Best deep learning single model was obtained with CNN with FastText embeddings.
 
 For Machine Learning models i tested : 
@@ -21,6 +22,7 @@ For Machine Learning models i tested :
 - ExtraTrees with TF-IDF, tuned with bayesian optimisation on the pipeline
 - XGboost with TF-IDF, tuned with bayesian optimisation on the pipeline
 - RandomForest with TF-IDF, tuned with bayesian optimisation on the pipeline
+
 Best single machine learning model was obtained with SVM.
 
 Best overall model was obtained by combining three of my optimized models with very different underlying algorithms: SVM, MultinomialNB and LightGBM, and putting them in a VotingClassifier.
